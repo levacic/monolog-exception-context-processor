@@ -1,7 +1,7 @@
 # Exception-with-context processor for Monolog
 
 ![Packagist PHP Version Support](https://img.shields.io/packagist/php-v/levacic/monolog-exception-with-context-processor)
-![Packagist Version](https://img.shields.io/packagist/v/levacic/monolog-exception-with-context-processor)
+[![Latest Stable Version](https://poser.pugx.org/levacic/monolog-exception-with-context-processor/v)](https://packagist.org/packages/levacic/monolog-exception-with-context-processor)
 ![Packagist Downloads](https://img.shields.io/packagist/dt/levacic/monolog-exception-with-context-processor)
 ![Packagist License](https://img.shields.io/packagist/l/levacic/monolog-exception-with-context-processor)
 ![CI](https://github.com/levacic/monolog-exception-with-context-processor/workflows/CI/badge.svg)
