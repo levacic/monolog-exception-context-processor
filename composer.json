@@ -5,7 +5,9 @@
         "context",
         "errors",
         "exceptions",
-        "logging"
+        "logging",
+        "monolog",
+        "processor"
     ],
     "homepage": "https://github.com/levacic/monolog-exception-with-context-processor",
     "type": "library",
