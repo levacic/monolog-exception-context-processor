@@ -1,4 +1,4 @@
-name: Run CI tasks
+name: CI
 
 on:
   - push
