@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ## [Unreleased]
 
-## [1.0.0] - 2020-12-30
+## [1.0.0] - 2020-12-31
 
 ### Added
 
@@ -14,4 +14,5 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ---
 
-[Unreleased]: https://github.com/levacic/monolog-exception-with-context-processor/compare/627958e..HEAD
+[1.0.0]: https://github.com/levacic/monolog-exception-with-context-processor/compare/1.0.0..HEAD
+[Unreleased]: https://github.com/levacic/monolog-exception-with-context-processor/compare/627958e..1.0.0
