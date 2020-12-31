@@ -4,6 +4,8 @@
 ![Packagist Version](https://img.shields.io/packagist/v/levacic/monolog-exception-with-context-processor)
 ![Packagist Downloads](https://img.shields.io/packagist/dt/levacic/monolog-exception-with-context-processor)
 ![Packagist License](https://img.shields.io/packagist/l/levacic/monolog-exception-with-context-processor)
+![Build](https://github.com/levacic/monolog-exception-with-context-processor/workflows/Run%20CI%20tasks/badge.svg)
+[![Code Coverage](https://codecov.io/gh/levacic/monolog-exception-with-context-processor/branch/main/graph/badge.svg?token=UPxy6f3T1z)](https://codecov.io/gh/levacic/monolog-exception-with-context-processor)
 
 This package processes exceptions passed via the log record's `context` and extracts the exception chain with context into a key within the log record's `extra` section.
 
