@@ -2,11 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Tests\Levacic\Exceptions;
+namespace Tests\Levacic\Monolog;
 
-use Levacic\Exceptions\ExceptionWithContextProcessor;
+use Levacic\Monolog\ExceptionWithContextProcessor;
 use PHPUnit\Framework\TestCase;
 use RuntimeException;
+use Tests\Levacic\Monolog\DummyExceptionWithContext;
 
 class ExceptionWithContextProcessorTest extends TestCase
 {
@@ -115,7 +116,7 @@ class ExceptionWithContextProcessorTest extends TestCase
             'extra' => [
                 'exception_chain_with_context' => [
                     [
-                        'exception' => 'Tests\\Levacic\\Exceptions\\DummyExceptionWithContext',
+                        'exception' => 'Tests\\Levacic\\Monolog\\DummyExceptionWithContext',
                         'context' => [
                             'foo' => 'bar',
                         ],
@@ -152,7 +153,7 @@ class ExceptionWithContextProcessorTest extends TestCase
             'extra' => [
                 'exception_chain_with_context' => [
                     [
-                        'exception' => 'Tests\\Levacic\\Exceptions\\DummyExceptionWithContext',
+                        'exception' => 'Tests\\Levacic\\Monolog\\DummyExceptionWithContext',
                         'context' => [
                             'foo' => 'bar',
                         ],
@@ -192,7 +193,7 @@ class ExceptionWithContextProcessorTest extends TestCase
                         'context' => null,
                     ],
                     [
-                        'exception' => 'Tests\\Levacic\\Exceptions\\DummyExceptionWithContext',
+                        'exception' => 'Tests\\Levacic\\Monolog\\DummyExceptionWithContext',
                         'context' => [
                             'foo' => 'bar',
                         ],

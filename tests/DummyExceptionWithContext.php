@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Levacic\Exceptions;
+namespace Tests\Levacic\Monolog;
 
 use Levacic\Exceptions\ExceptionWithContext;
 use RuntimeException;

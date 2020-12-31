@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Levacic\Exceptions;
+namespace Levacic\Monolog;
 
 use Levacic\Exceptions\ExceptionWithContext;
 use Monolog\Processor\ProcessorInterface;

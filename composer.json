@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Levacic\\Exceptions\\": "src"
+            "Levacic\\Monolog\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\Levacic\\Exceptions\\": "tests"
+            "Tests\\Levacic\\Monolog\\": "tests"
         }
     },
     "require-dev": {
