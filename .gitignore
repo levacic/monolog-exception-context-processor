@@ -1,0 +1,7 @@
+# Composer and installed dependencies.
+/composer.phar
+/composer.lock
+/vendor
+
+# PHPUnit result cache.
+/.phpunit.result.cache

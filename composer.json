@@ -1,0 +1,40 @@
+{
+    "name": "levacic/monolog-exception-with-context-processor",
+    "description": "A Monolog processor to automatically extract context from suitable exceptions",
+    "keywords": [
+        "context",
+        "errors",
+        "exceptions",
+        "logging"
+    ],
+    "homepage": "https://github.com/levacic/monolog-exception-with-context-processor",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Milos Levacic",
+            "email": "milos@levacic.net"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": "^7.4|^8.0",
+        "levacic/exception-with-context": "^1.0",
+        "monolog/monolog": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Levacic\\Exceptions\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Levacic\\Exceptions\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
