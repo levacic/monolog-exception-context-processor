@@ -24,6 +24,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Determine composer cache directory on Linux
+        run: echo "COMPOSER_CACHE_DIR=$(composer config cache-dir)" >> $GITHUB_ENV
+
       - name: Cache dependencies installed with Composer
         id: composer-cache
         uses: actions/cache@v2
