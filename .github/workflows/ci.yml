@@ -28,7 +28,6 @@ jobs:
         run: echo "COMPOSER_CACHE_DIR=$(composer config cache-dir)" >> $GITHUB_ENV
 
       - name: Cache dependencies installed with Composer
-        id: composer-cache
         uses: actions/cache@v2
         with:
           path: ${{ env.COMPOSER_CACHE_DIR }}
@@ -40,7 +39,6 @@ jobs:
         run: composer validate
 
       - name: Install Composer dependencies
-        if: steps.composer-cache.outputs.cache-hit != 'true'
         run: composer update --prefer-dist --no-interaction --no-ansi
 
       - name: Run PHPUnit
